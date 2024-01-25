@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(90deg,rgb(231, 109, 90),rgb(226, 76, 21),rgb(128, 0, 94));
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+form{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+input{
+    width: 30%;
+    height:40px;
+    border-radius: 10px;
+    border: 2px solid rgb(223, 100, 219);
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 2px 2px 3px 3px white;
+    box-shadow: 2px 2px 4px lightgray;
+   
+}
+.find{
+    border-radius: 5px;
+    width: 80px;
+    border: 3px solid navajowhite;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    background-color:rgb(255, 51, 0);
+    box-shadow: 2px 2px 3px 3px rgb(219, 173, 133);
+    cursor: pointer;
+}
+.find:hover{
+    opacity: 0.8;
+}
+
+.img_section{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 20px 20px;
+
+}
+.add_more{
+    margin-left: 45%;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid white;
+    background-color: rgb(174, 28, 57);
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 2px 2px;
+    box-shadow: 2px 2px 3px 0px rgb(62, 184, 237);
+    color: white;
+    /* margin-right: auto; */
+}
+.add_more:hover{
+opacity: 0.9;
+text-decoration: darkgrey;
+cursor: pointer;
+text-shadow: 1px 1px red;
+}
+.getdata{
+    width: 300px;
+    padding: 10px 10px;
+    margin-top: 0px;
+    background-color: rgb(27, 188, 233);
+    box-shadow: 3px 3px 2px 0px rgb(229, 138, 110) ;  
+    cursor: pointer;  
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 255, 132);
+}
+.getdata:hover{
+    opacity: 0.7;
+   cursor: pointer;
+   font-size: large;
+}
+.xyz{
+    box-shadow: 2px 2px 3px rgb(232, 76, 89);
+    border-radius: 10px;
+    
+}
+.xyz:hover{
+opacity: 0.8;
+cursor: pointer;
+}
+   
